@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link href="css/ticker-style.css" rel="stylesheet" type="text/css" />
+        <link href="css/li-scroller.css" rel="stylesheet" type="text/css" />
+
+        <!--script type="text/javascript" src="jquery.li-scroller.js"></script>-->
+        <title>Insert title here</title>
+    </head>
+    <body>
+        <h1>test</h1>
+        <ul id="mobamas-ul"></ul>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.darakeru.com/mobamasticker/jquery.ticker.js"></script>
+        <script type="text/javascript" src="http://www.darakeru.com/mobamasticker/mobamas.js"></script>
+        <script type="text/javascript">
+        $(function () {
+            $('#mobamas-ul').ticker({
+                controls: false,
+                titleText: 'モバマス市況'
+            });
+        });
+        </script>
+    </body>
+</html>
